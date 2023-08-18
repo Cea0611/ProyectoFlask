@@ -1,0 +1,11 @@
+<h1>Proyectos</h1>
+{%if edad >= 18%}
+<p> Propietario: {{nombre}} </p>
+<p> Edad: {{edad}} </p>
+<h1>Eres Mayor de edad</h1>
+
+{% else %}
+<p> Propietario: {{nombre}} </p>
+<p> Edad: {{edad}} </p>
+<h1>Eres Menor de edad</h1>
+{% endif %}
